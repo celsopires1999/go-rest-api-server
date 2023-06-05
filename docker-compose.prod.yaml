@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  app:
+    image: celsopires/goserver
+    volumes:
+      - ./database:/database
+    ports:
+      - 9003:9003

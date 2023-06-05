@@ -1,0 +1,22 @@
+###
+GET http://localhost:9003/products
+
+###
+
+###
+GET http://localhost:9003/product/1
+
+###
+
+POST http://localhost:9003/products
+Content-Type: application/json
+
+{
+  "productCode": "ABC12355",
+  "name": "ProductK",
+  "inventory": 30,
+  "price": 10,
+  "status": "In Stock"
+}
+
+###
